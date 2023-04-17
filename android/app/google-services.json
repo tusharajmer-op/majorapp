@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048218968012",
+    "project_id": "my-music-app-ae1aa",
+    "storage_bucket": "my-music-app-ae1aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048218968012:android:50b3cbc842e4b97e9cc769",
+        "android_client_info": {
+          "package_name": "com.meditation.mentalrich"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048218968012-6jbmtl3j985arpaj0pn0daf4s4bma74u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0euYVh8IkcdDyAPFA1oMV5f8ld8F09JY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048218968012-6jbmtl3j985arpaj0pn0daf4s4bma74u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
