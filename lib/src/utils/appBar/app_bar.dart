@@ -63,7 +63,7 @@ appBar(BuildContext context, {cat = ""}) {
                     PopupMenuItem(
                         child: InkWell(
                       onTap: () async {
-                        Navigator.of(context).pop();
+                        // Navigator.of(context).pop();
                         await users().auth.signOut();
                       },
                       child: const Text(

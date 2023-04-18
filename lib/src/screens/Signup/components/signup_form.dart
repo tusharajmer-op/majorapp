@@ -56,7 +56,7 @@ class SignUpForm extends StatelessWidget {
                   return 'Please enter some text';
                 }
                 if (value.length < 8) {
-                  return "incorrect password";
+                  return "invalid password";
                 }
 
                 return null;

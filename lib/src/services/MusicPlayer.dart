@@ -24,14 +24,14 @@ playmusic (String songUrl,String name,String image) async{
   
   }
   else{
-    print("playing downloaded");
+  
     try{
-    print(Directory(songUrl).existsSync());
+    
     await player.open(Audio.file('${OtherConstants.defaultPath}/music/$name.mp3',metas:Metas(title: name,album: name , image: MetasImage.file('${OtherConstants.defaultPath}/images/$name.jpg'))),showNotification: true,notificationSettings: const NotificationSettings(nextEnabled: false,prevEnabled: false));
-    print("playeing");
+   
     }
     catch(e){
-      print("tijfao");
+     
       throw e;
     }
   }

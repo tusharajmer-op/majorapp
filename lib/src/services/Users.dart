@@ -22,8 +22,8 @@ class users {
         return 'The account already exists for that email.';
       }
 
-      print(e);
-      return "e";
+    
+      return "invalid credential plese check you email id and password";
     } catch (e) {
       return 'some error occured! please try later';
     }
@@ -43,7 +43,7 @@ class users {
       } else if (e.code == 'wrong-password') {
         return 'Wrong password provided for that user.';
       }
-      return "fds";
+      return "invalid credentials please check your email and password";
     }
   }
 }
